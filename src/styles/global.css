@@ -1,6 +1,7 @@
 :root{
-  --white: #FFF;
   --background: #F2F3F5;
+  --white: #FFFFFF;
+  --white-border: #F0F1F3;
   --gray-line: #DCDDE0;
   --gray-border: #D7D8DA;
   --text: #666666;
