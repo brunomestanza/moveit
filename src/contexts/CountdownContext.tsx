@@ -30,8 +30,9 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
   }
   function resetCountdown() {
     clearTimeout(countdownTimeout);
-    setTime(0.1 * 60);
     setIsActive(false);
+    setHasFinished(false);
+    setTime(0.1 * 60);
   }
   useEffect(() => {
     if (isActive && time > 0) {
