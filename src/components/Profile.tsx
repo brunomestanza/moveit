@@ -3,7 +3,7 @@ import { ChallengesContext } from '../contexts/ChallengesContext';
 import styles from '../styles/components/Profile.module.css';
 
 export default function Profile() {
-  const {level} = useContext(ChallengesContext);
+  const { level } = useContext(ChallengesContext);
   return (
     <div className={styles.profileContainer}>
       <img src="https://github.com/brunomestanza.png" alt="Bruno Mestanza" />
