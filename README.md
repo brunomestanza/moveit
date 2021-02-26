@@ -43,10 +43,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [TypeScript](https://www.typescriptlang.org/)
 
 ### Features
+As features não possuem previsão para lançamento.
 
 - [ ] Dark Mode
 - [ ] Login com o GitHub
 - [ ] Ranking de todos os jogadores cadastrados
+- [ ] Função para compartilhamento no Twitter
 
 ### Autor
 
